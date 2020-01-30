@@ -19,16 +19,11 @@ class Dog
   end 
   
   def self.print_all 
-    self.all.collect{ |name| puts Dog.name }
+    @@all.each{ |name| puts self }
   end
   
   def save 
     @@all << self 
   end 
-  
-  
-  
-  
-  
   
 end 
