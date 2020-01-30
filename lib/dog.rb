@@ -15,6 +15,10 @@ class Dog
     self.all.clear  
   end 
   
+  def self.print_all 
+    @@all.each{ |name| print #{name} }
+  end 
+  
   
   
   
